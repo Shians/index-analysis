@@ -3,8 +3,8 @@
 Run code below to generate `index_figure_4.pdf`.
 
 ```r
-if (!require(INdEX)) devtools::install_github("shians/INdEX")
-library(INdEX)
+if (!require(index)) devtools::install_github("shians/index")
+library(index)
 
 source("index_analyses.R")
 ```
